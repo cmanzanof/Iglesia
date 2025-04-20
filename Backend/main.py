@@ -4,7 +4,7 @@ app = FastAPI()
 # Configura CORS para permitir el frontend de Vercel
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://front-iglesia.vercel.app"],  # Cambia esto por tu dominio de Vercel
+    allow_origins=["https://p-gina-de-la-iglesia-gray-grass.reflex.run/"],  # Cambia esto por tu dominio de Vercel
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
