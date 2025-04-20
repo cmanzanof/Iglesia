@@ -12,4 +12,8 @@ app.add_middleware(
 )
 @app.get("/")
 def read_root():
-    return {"mensaje": "¡Hola desde FastAPI en Railway!"}
+    return {"mensaje": "¡Hola desde FastAPI en Railway!", "mensaje2": "¡Ya entendimos!"}
+
+@app.get("/pruebas")
+def read_roo():
+    return {"pruebas": "¡prueba funcional!"}
